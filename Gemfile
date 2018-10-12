@@ -29,9 +29,12 @@ gem 'devise_invitable'
 gem 'high_voltage'
 gem 'jquery-rails'
 gem 'pg'
-gem 'therubyracer', :platform=>:ruby
+# gem 'therubyracer', :platform=>:ruby
 group :development do
   gem 'better_errors'
   gem 'hub', :require=>nil
   gem 'rails_layout'
 end
+
+gem 'webpacker'
+gem 'react-rails'
