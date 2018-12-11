@@ -13,3 +13,30 @@
  *= require_tree .
  *= require_self
  */
+
+
+.extension-small {
+  width:104px;
+  display:inline-block;
+  text-align:center;
+  margin:5px 0;padding:0;
+  .title {
+    display:inline-block;
+    margin-bottom:5px;
+    line-height:16px;
+  }
+  .logo {
+
+  }
+  .actions {
+    display:inline-block;
+    margin-top:3px;
+    a {
+      text-decoration:underline;
+      font-size:13px;
+    }
+    span.footer-info {
+      
+    }
+  }
+}
